@@ -2,7 +2,7 @@ export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
   name: "Sanjeev Chauhan",
   jobDescription: "Aeroelasticity researcher",
-  about: `I'm a Student at Duke University and a researcher in the Duke Areoelasticity Lab.
+  about: `I'm a Student at Duke University and a researcher in the Duke Aeroelasticity Lab.
   `,
 
   experience: [
@@ -46,28 +46,22 @@ export const info = {
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Duke University",
+      location: "Durhan, NC",
+      startDate: "2022",
+      endDate: "2026",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "ECE or MechE Major. Researching transonic buffet flow for the Duke Aeroelasticity Lab.",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
+      name: "South Carolina Governor's School for Science and Math",
+      location: "Hartsville, SC",
+      startDate: "2020",
+      endDate: "2022",
+      description: ["Recieved 2022 Robotics Award. Built a Vehicle-Agnostic Control Systems for Autonomous Vehicle Fleets. https://autogolfcart.github.io/ "],
     },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
-    },
+    
   ],
 
   socialMedia: {
