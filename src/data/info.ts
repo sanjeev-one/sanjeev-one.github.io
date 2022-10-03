@@ -12,22 +12,17 @@ export const info = {
       startDate: "May 2022",
       endDate: "Present",
       description: [
-        "performing Computational Fluid Dynamics simulations aimed at exploring buffet in transonic flow. Buffet is often explored with the Navier-Stokes equations, but those are computationally intensive. On the other hand, the Euler Equations, which are less computationally intensive, do not account for viscous effects, but may still offer reasonable predictions of buffet onset at a lower computational cost, while giving insight into viscosity’s impact on the phenomenon.",
+        "Performing Computational Fluid Dynamics simulations aimed at exploring buffet in transonic flow. Buffet is often explored with the Navier-Stokes equations, but those are computationally intensive. On the other hand, the Euler Equations, which are less computationally intensive, do not account for viscous effects, but may still offer reasonable predictions of buffet onset at a lower computational cost, while giving insight into viscosity’s impact on the phenomenon.",
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "Resbench: HPC Deep Learning Benchmark",
+      location: "University of South Carolina",
+      startDate: "May 2021",
+      endDate: "Dec 2021",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "Researched Deep Learning frameworks for image recognition. Used NVIDIA's DL examples, and benchmarked 3 frameworks on 3 datasets using ResNet50V1.5",
       ],
     },
 
