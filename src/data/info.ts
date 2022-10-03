@@ -32,8 +32,7 @@ export const info = {
       startDate: "Aug 2022",
       endDate: "Present",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "Took Professional Headshots at the Duke Chapel for students to use for LinkedIn profiles and other business needs.",
       ],
     },
   ],
@@ -67,7 +66,7 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Self Driving golfcart module",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
       githubUrl: "https://github.com/uzzii-21/astro-portfolio",
