@@ -12,7 +12,9 @@ export const info = {
       startDate: "May 2022",
       endDate: "Present",
       description: [
-        "Performing Computational Fluid Dynamics simulations aimed at exploring buffet in transonic flow. Buffet is often explored with the Navier-Stokes equations, but those are computationally intensive. On the other hand, the Euler Equations, which are less computationally intensive, do not account for viscous effects, but may still offer reasonable predictions of buffet onset at a lower computational cost, while giving insight into viscosity’s impact on the phenomenon.",
+        "Performing Computational Fluid Dynamics simulations aimed at exploring buffet in transonic flow. Buffet is often explored with the Navier-Stokes equations,",
+        " but those are computationally intensive. On the other hand, the Euler Equations, which are less computationally intensive, do not account for viscous effects,",
+        " but may still offer reasonable predictions of buffet onset at a lower computational cost, while giving insight into viscosity’s impact on the phenomenon.",
       ],
     },
 
@@ -27,10 +29,10 @@ export const info = {
     },
 
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Freelance Photographer",
+      location: "Duke University",
+      startDate: "Aug 2022",
+      endDate: "Present",
       description: [
         "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
         "The internship track is built by an industry expert that let develop the skills in the areas most important ",
