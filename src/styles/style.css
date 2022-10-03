@@ -12,6 +12,8 @@
 @layer components {
   body {
     @apply bg-light dark:bg-dark;
+    font-size: 1rem;
+
   }
   .container {
     @apply max-w-[1112px] mx-auto px-4;
@@ -26,6 +28,8 @@
   }
   h1 {
     @apply text-6xl sm:text-8xl main-heading;
+    font-size: 6rem;
+    line-height: 1.2;
   }
   h2 {
     @apply text-xl font-semibold;
