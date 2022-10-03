@@ -72,5 +72,18 @@ export const info = {
       githubUrl: "https://github.com/AutoGolfCart",
       liveUrl: "https://golfcart.sanjeev.one/",
     },
+    {
+      title: "Rebuilt DJI SPARK Drone",
+      isFeatured: true,
+      thumbnail: "/assets/images/cart.jpeg",
+      liveUrl: "https://golfcart.sanjeev.one/",
+    },
+    {
+      title: "Self Driving golfcart module",
+      isFeatured: true,
+      thumbnail: "/assets/images/cart.jpeg",
+      githubUrl: "https://github.com/AutoGolfCart",
+      liveUrl: "https://golfcart.sanjeev.one/",
+    },
   ],
 };
