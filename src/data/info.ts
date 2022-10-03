@@ -47,7 +47,7 @@ export const info = {
   education: [
     {
       name: "Duke University",
-      location: "Durhan, NC",
+      location: "Durham, NC",
       startDate: "2022",
       endDate: "2026",
       description: [
