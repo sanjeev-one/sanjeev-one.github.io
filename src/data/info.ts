@@ -68,9 +68,9 @@ export const info = {
     {
       title: "Self Driving golfcart module",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "/assets/images/cart.jpeg",
+      githubUrl: "https://github.com/AutoGolfCart",
+      liveUrl: "https://golfcart.sanjeev.one/",
     },
   ],
 };
