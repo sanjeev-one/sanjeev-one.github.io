@@ -1,7 +1,7 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
   name: "Sanjeev Chauhan",
-  jobDescription: "Web Developer",
+  jobDescription: "Aeroelasticity researcher",
   about: `I'm a Student at Duke University and a researcher in the Duke Areoelasticity Lab.
   `,
 
