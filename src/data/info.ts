@@ -12,9 +12,7 @@ export const info = {
       startDate: "May 2022",
       endDate: "Present",
       description: [
-        "Sanjeev is performing Computational Fluid Dynamics simulations aimed at exploring buffet in transonic flow. Buffet is often explored with the Navier-Stokes equations,",
-        " but those are computationally intensive. On the other hand, the Euler Equations, which are less computationally intensive, do not account for viscous effects,",
-        " but may still offer reasonable predictions of buffet onset at a lower computational cost, while giving insight into viscosity’s impact on the phenomenon.",
+        "Sanjeev is performing Computational Fluid Dynamics simulations aimed at exploring buffet in transonic flow. Buffet is often explored with the Navier-Stokes equations, but those are computationally intensive. On the other hand, the Euler Equations, which are less computationally intensive, do not account for viscous effects, but may still offer reasonable predictions of buffet onset at a lower computational cost, while giving insight into viscosity’s impact on the phenomenon.",
       ],
     },
 
