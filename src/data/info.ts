@@ -66,7 +66,7 @@ export const info = {
 
   projects: [
     {
-      title: "Self Driving golfcart module",
+      title: "Vehicle-Agnostic Control Systems for Autonomous Vehicle Fleets",
       isFeatured: true,
       thumbnail: "/assets/images/cart.jpeg",
       githubUrl: "https://github.com/AutoGolfCart",
@@ -75,15 +75,16 @@ export const info = {
     {
       title: "Rebuilt DJI SPARK Drone",
       isFeatured: true,
-      thumbnail: "/assets/images/cart.jpeg",
+      thumbnail: "/assets/images/drone.jpeg",
       liveUrl: "https://golfcart.sanjeev.one/",
     },
     {
-      title: "Self Driving golfcart module",
+      title: "FRC robotics",
       isFeatured: true,
-      thumbnail: "/assets/images/cart.jpeg",
-      githubUrl: "https://github.com/AutoGolfCart",
+      thumbnail: "/assets/images/robot.jpeg",
       liveUrl: "https://golfcart.sanjeev.one/",
     },
+  
+  
   ],
 };
