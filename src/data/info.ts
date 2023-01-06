@@ -63,6 +63,7 @@ export const info = {
     github: "https://github.com/dh2di3oj2",
     email: "sanjeev.chauhan@duke.edu",
     linkedin: "https://www.linkedin.com/in/sanjeev-chauhan-a5b570240/",
+    resume: "/assets/docs/resume.pdf"
   },
 
   projects: [
