@@ -18,6 +18,7 @@ export const info = {
     
     {
       name: "DeAP Learning Labs",
+      position: "Founder and CTO",
       location: "Durham, NC",
       startDate: "April 2023",
       endDate: "Current",
@@ -34,6 +35,7 @@ export const info = {
     
     {
       name: "Duke Aeroelasticity Lab",
+      position: "Researcher",
       location: "Durham, NC",
       startDate: "May 2022",
       endDate: "Current",
@@ -55,9 +57,10 @@ export const info = {
     },
     {
       name: "Stanford Linear Accelerator Center National Lab",
+      position: "Machine Learning Researcher",
       location: "Stanford, CA",
       startDate: "Jun 2023",
-      endDate: "Aug 2023",
+      endDate: "Current",
       description: [
         "Re-engineered FACET-II's computer simulation infrastructure, implementing algorithmic control to improve efficiency.",
         "Developed a fast machine learning model for the FACET-II photo injector, achieving a speed up of 26,000X vs traditional simulations.",
