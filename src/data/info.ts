@@ -89,7 +89,7 @@ export const info = {
     {
       title: "DeAP Learning Labs",
       isFeatured: true,
-      thumbnail: "/assets/images/deaplearning.jpeg", // Placeholder thumbnail, replace with actual path if available
+      thumbnail: "/assets/images/dl.png", // Placeholder thumbnail, replace with actual path if available
       githubUrl: "https://github.com/Deap-Learning-Labs", // Add GitHub URL if available
       liveUrl: "https://deaplearning.com",
       description: "Founded and technically directed an AI-driven educational startup, DeAP Learning Labs, which empowers over 95,000 students with personalized AP history exam preparation. Developed a custom, scalable RAG-based generative AI API on AWS, transforming traditional education through scalable, interactive AI. The platform integrates AI tools for grading, assisting with worksheet questions, and learning from teacher-provided content."
