@@ -56,7 +56,7 @@ export const info = {
         "B.S. in Electrical and Computer Engineering and Computer Science.",
         "Innovation & Entrepreneurship certificate.",
         "GPA: 3.78/4.00.",
-        "Relevant Coursework: Machine Learning, Linear Algebra, and more."
+        "Relevant Coursework: Machine Learning, Linear Algebra, Modern Physics, Multi, ODE, Data Structures, Data Engineering."
       ],
     },
     {
@@ -66,7 +66,7 @@ export const info = {
       endDate: "May 2022",
       description: [
         "Honors: SCGSSM Robotics Award, FRC Design Award S.E. region and more.",
-        "Built a Vehicle-Agnostic Control Systems for Autonomous Vehicle Fleets. https://autogolfcart.github.io/ "
+        "Built a Vehicle-Agnostic Control Systems for Autonomous Vehicle Fleets."
       ],
     },
   ],
