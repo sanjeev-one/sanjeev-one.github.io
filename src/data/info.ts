@@ -69,8 +69,8 @@ export const info = {
   ],
   leadership: [
     {
-      organization: "Duke Robotics Mentorship",
-      position: "Club President",
+      name: "Duke Robotics Mentorship",
+      location: "Club President",
       startDate: "Jan 2023",
       endDate: "Current",
       description: [
@@ -78,8 +78,8 @@ export const info = {
       ],
     },
     {
-      organization: "SPARK! (SCGSSM)",
-      position: "Voluntary Student Leader",
+      name: "SPARK! (SCGSSM)",
+      location: "Voluntary Student Leader",
       startDate: "Sep 2020",
       endDate: "May 2022",
       description: [
@@ -88,8 +88,8 @@ export const info = {
       ],
     },
     {
-      organization: "Duke XPRIXE Robotics Team",
-      position: "Rainforest Drone Team Lead",
+      name: "Duke XPRIXE Robotics Team",
+      location: "Rainforest Drone Team Lead",
       startDate: "Aug 2022",
       endDate: "Present",
       description: [
@@ -97,8 +97,8 @@ export const info = {
       ],
     },
     {
-      organization: "SCGSSM Mindfulness Program",
-      position: "Founder and President",
+      name: "SCGSSM Mindfulness Program",
+      location: "Founder and President",
       startDate: "Jan 2021",
       endDate: "May 2022",
       description: [
@@ -106,8 +106,8 @@ export const info = {
       ],
     },
     {
-      organization: "FIRST Robotics",
-      position: "Team Captain (FTC 327), Lead Driver, Fabrication Specialist (FRC 2815), Current Mentor",
+      name: "FIRST Robotics",
+      location: "Team Captain (FTC 327), Lead Driver, Fabrication Specialist (FRC 2815), Current Mentor",
       startDate: "Jan 2020",
       endDate: "Present",
       description: [
