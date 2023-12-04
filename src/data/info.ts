@@ -153,13 +153,6 @@ export const info = {
 
   projects: [
     {
-      title: "Vehicle-Agnostic Control Systems for Autonomous Vehicle Fleets",
-      isFeatured: true,
-      thumbnail: "/assets/images/cart.jpeg",
-      githubUrl: "https://github.com/AutoGolfCart",
-      liveUrl: "https://github.com/AutoGolfCart",
-    },
-    {
       title: "DeAP Learning Labs",
       isFeatured: true,
       thumbnail: "/assets/images/dl.png", // Placeholder thumbnail, replace with actual path if available
@@ -167,6 +160,14 @@ export const info = {
       liveUrl: "https://deaplearning.com",
       description: "Founded and technically directed an AI-driven educational startup, DeAP Learning Labs, which empowers over 95,000 students with personalized AP history exam preparation. Developed a custom, scalable RAG-based generative AI API on AWS, transforming traditional education through scalable, interactive AI. The platform integrates AI tools for grading, assisting with worksheet questions, and learning from teacher-provided content."
     },
+    {
+      title: "Vehicle-Agnostic Control Systems for Autonomous Vehicle Fleets",
+      isFeatured: true,
+      thumbnail: "/assets/images/cart.jpeg",
+      githubUrl: "https://github.com/AutoGolfCart",
+      liveUrl: "https://github.com/AutoGolfCart",
+    },
+   
     // ... Add other projects here
   ],
   
