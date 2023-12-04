@@ -6,17 +6,16 @@ export const info = {
 
   experience: [
     {
-      name: "Stanford Linear Accelerator Center National Lab",
-      location: "Stanford, CA",
-      startDate: "Jun 2023",
-      endDate: "Aug 2023",
+      name: "Duke Capital Partners",
+      location: "Durham, NC",
+      position: "Computer Science Associate",
+      startDate: "Oct 2023",
+      endDate: "Current",
       description: [
-        "Re-engineered FACET-II's computer simulation infrastructure, implementing algorithmic control to improve efficiency.",
-        "Developed a fast machine learning model for the FACET-II photo injector, achieving a speed up of 26,000X vs traditional simulations.",
-        "Recognized for exceptional performance and innovation, earning a return offer to continue spearheading machine learning research.",
-        "Leveraged a technology stack consisting of XOPT, MATLAB, and OpenPMD. Employed Bayesian optimization and Controlled Non-dominated Sorting Genetic Algorithm for advanced simulation optimizations."
+        "Wrote diligence reports about AI startups to advise millions of dollars of venture capital investments."
       ],
     },
+    
     {
       name: "DeAP Learning Labs",
       location: "Durham, NC",
@@ -43,7 +42,81 @@ export const info = {
         "Investigated use of Euler equations as an alternative to Navier-Stokes equations."
       ],
     },
+    {
+      name: "Chapel Headshots",
+      location: "Durham, NC",
+      position: "Founder and CEO",
+      startDate: "Aug 2022",
+      endDate: "Current",
+      description: [
+        "Founded Duke’s premier professional headshot business.",
+        "Directed marketing strategies and customer service relations."
+      ],
+    },
+    {
+      name: "Stanford Linear Accelerator Center National Lab",
+      location: "Stanford, CA",
+      startDate: "Jun 2023",
+      endDate: "Aug 2023",
+      description: [
+        "Re-engineered FACET-II's computer simulation infrastructure, implementing algorithmic control to improve efficiency.",
+        "Developed a fast machine learning model for the FACET-II photo injector, achieving a speed up of 26,000X vs traditional simulations.",
+        "Recognized for exceptional performance and innovation, earning a return offer to continue spearheading machine learning research.",
+        "Leveraged a technology stack consisting of XOPT, MATLAB, and OpenPMD. Employed Bayesian optimization and Controlled Non-dominated Sorting Genetic Algorithm for advanced simulation optimizations."
+      ],
+    },
     // ... Add other experiences here
+  ],
+  leadership: [
+    {
+      organization: "Duke Robotics Mentorship",
+      position: "Club President",
+      startDate: "Jan 2023",
+      endDate: "Current",
+      description: [
+        "Headed and grew an organization dedicated to delivering free, hands-on robotics and programming courses to four local middle schools, demonstrating exceptional management skills and commitment to educational outreach."
+      ],
+    },
+    {
+      organization: "SPARK! (SCGSSM)",
+      position: "Voluntary Student Leader",
+      startDate: "Sep 2020",
+      endDate: "May 2022",
+      description: [
+        "Planned, managed, and taught interactive, engaging lessons in STEM subjects to over 80 middle schoolers from across SC.",
+        "Taught and led lessons in robotics, Chinese, Latin, Math, US history, and spearheaded an 8-week python course."
+      ],
+    },
+    {
+      organization: "Duke XPRIXE Robotics Team",
+      position: "Rainforest Drone Team Lead",
+      startDate: "Aug 2022",
+      endDate: "Present",
+      description: [
+        "Designed motor harness for drone and gel-based vibration-dampening system while auditing XPRIZE class (ECE 365)."
+      ],
+    },
+    {
+      organization: "SCGSSM Mindfulness Program",
+      position: "Founder and President",
+      startDate: "Jan 2021",
+      endDate: "May 2022",
+      description: [
+        "Established afterschool mindfulness course in collaboration with school administration and certified yoga instructor."
+      ],
+    },
+    {
+      organization: "FIRST Robotics",
+      position: "Team Captain (FTC 327), Lead Driver, Fabrication Specialist (FRC 2815), Current Mentor",
+      startDate: "Jan 2020",
+      endDate: "Present",
+      description: [
+        "Founded a fabrication sub team and re-structured FRC 2815’s mechanical workflow.",
+        "Introduced OnShape and maintained a complete CAD model of our competition robot.",
+        "Enabled precise part fabrication and led the team to reach the Palmetto regional quarterfinals, placing 14th of 63 teams.",
+        "Headed drive team to win SCRAP 2021 regionals."
+      ],
+    },
   ],
 
   education: [
