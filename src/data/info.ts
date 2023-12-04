@@ -65,8 +65,8 @@ export const info = {
       startDate: "2020",
       endDate: "May 2022",
       description: [
-        "Honors: SCGSSM Robotics Award, FRC Design Award S.E. region and more.",
-        "Built a Vehicle-Agnostic Control Systems for Autonomous Vehicle Fleets."
+        "Honors: SCGSSM Robotics Award, FRC Design Award S.E. region, National Merit Finalist, National AP Scholar.",
+        "High School Experience: Led various STEM initiatives, participated in robotics competitions. Founder of the Mindfulness Program and Voluntary Student Leader for SPARK, engaging in interactive STEM lessons."
       ],
     },
   ],
@@ -84,8 +84,17 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/cart.jpeg",
       githubUrl: "https://github.com/AutoGolfCart",
-      liveUrl: "https://golfcart.sanjeev.one/",
+      liveUrl: "https://github.com/AutoGolfCart",
+    },
+    {
+      title: "DeAP Learning Labs",
+      isFeatured: true,
+      thumbnail: "/assets/images/deaplearning.jpeg", // Placeholder thumbnail, replace with actual path if available
+      githubUrl: "https://github.com/Deap-Learning-Labs", // Add GitHub URL if available
+      liveUrl: "https://deaplearning.com",
+      description: "Founded and technically directed an AI-driven educational startup, DeAP Learning Labs, which empowers over 95,000 students with personalized AP history exam preparation. Developed a custom, scalable RAG-based generative AI API on AWS, transforming traditional education through scalable, interactive AI. The platform integrates AI tools for grading, assisting with worksheet questions, and learning from teacher-provided content."
     },
     // ... Add other projects here
   ],
+  
 };
