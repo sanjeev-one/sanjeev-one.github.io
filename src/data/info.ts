@@ -12,8 +12,9 @@ export const info = {
       startDate: "Oct 2023",
       endDate: "Current",
       description: [
-        "Wrote diligence reports about AI startups to advise millions of dollars of venture capital investments."
-      ],
+        "Conducted comprehensive due diligence for AI startup investments at a leading venture capital firm, influencing multi-million dollar decisions and contributing to strategic portfolio management." ,
+        "Youngest Associate to be hired",
+         ],
     },
     
     {
