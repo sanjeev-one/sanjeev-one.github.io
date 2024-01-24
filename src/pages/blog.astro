@@ -1,5 +1,7 @@
 ---
-import { Astro } from "astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import Layout from "@layouts/Layout.astro";
+
 const posts = Astro.fetchContent("../blog/*.md").map((post) => {
   return {
     title: post.frontmatter.title,
@@ -19,6 +21,7 @@ const posts = Astro.fetchContent("../blog/*.md").map((post) => {
       ogImageUrl={"/assets/images/profile.png"}
     />
   </head>
+
   <body>
     <Layout>
       <h1 style="line-height: 1.2;">Blog</h1>
@@ -28,7 +31,7 @@ const posts = Astro.fetchContent("../blog/*.md").map((post) => {
             <h2>{post.title}</h2>
             <p>{post.date}</p>
             <p>{post.author}</p>
-            <div innerHTML={post.content} />
+            <div>{Astro.unsafeHTML(post.content)}</div>
           </article>
         ))
       }
