@@ -73,6 +73,15 @@ export const info = {
   ],
   leadership: [
     {
+      name: "Duke IEEE Chapter",
+      location: "President and Founder",
+      startDate: "Jan 2024",
+      endDate: "Current",
+      description: [
+        "I reactived Duke's IEEE chapter and am currently leading the chapter as President. After attending SuperComputing23, I realized undergraduate exposure to conferences is underrated. I refounded Duke's IEEE chapter to provide students with opportunities to attend conferences, network with industry professionals, and learn about the latest developments in the field, in an effort to inspire and drive passion in Duke undergrads."
+      ],
+    },
+    {
       name: "Duke Robotics Mentorship",
       location: "Club President",
       startDate: "Jan 2023",
