@@ -2,7 +2,7 @@
 import MetaHead from "@components/general/MetaHead.astro";
 import Layout from "@layouts/Layout.astro";
 
-const posts = Astro.fetchContent("../blog/*.md").map((post) => {
+const posts = Astro.glob("../blog/*.md").map((post) => {
   return {
     title: post.frontmatter.title,
     date: post.frontmatter.date,
