@@ -158,9 +158,9 @@ export const info = {
   ],
 
   socialMedia: {
-    github: "https://github.com/sanjeev-one",
+    github: 'https://github.com/sanjeev-one',
     email: "mailto:sanjeev.chauhan@duke.edu",
-    linkedin: "https://www.linkedin.com/in/sanjeev-one/",
+    linkedin: 'https://www.linkedin.com/in/sanjeev-one/',
     resume: "/assets/docs/resume.pdf"
   },
 
