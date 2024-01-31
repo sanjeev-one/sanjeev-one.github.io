@@ -176,7 +176,7 @@ export const info = {
     {
       title: "Sanjeev.one - Blog",
       isFeatured: true,
-      thumbnail: "/assets/images/dl.png", // Placeholder thumbnail, replace with actual path if available
+      thumbnail: "/assets/images/project.png", // Placeholder thumbnail, replace with actual path if available
       githubUrl: "https://github.com/sanjeev-one/blog", // Add GitHub URL if available
       liveUrl: "https://blog.sanjeev.one",
       description: "Sanjeev's Blog website for spreading knowledge and wisdom."
