@@ -1,15 +1,12 @@
 ---
 import Footer from '@components/general/Footer.astro';
 import Navbar from '@components/general/Navbar.astro';
-import { Head } from 'astro/head';
 import '../styles/style.css';
 ---
-<html>
-<Head>
-  <!-- This allows you to inject elements into the <head> of your document -->
-  <script src="https://cdn.octolane.com/tag.js?pk=75dfc4602672294ab2de" defer client:load></script>
-</Head>
+
 <body>
+  <script src="https://cdn.octolane.com/tag.js?pk=75dfc4602672294ab2de" defer client:load></script>
+
   <Navbar />
   <main class="container">
     <slot />
