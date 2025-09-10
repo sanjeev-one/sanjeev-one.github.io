@@ -1,158 +1,137 @@
 export const info = {
   baseUrl: "https://sanjeev.one/",
   name: "Sanjeev Chauhan",
-  jobDescription: "Machine Learning Researcher, Founder and CTO, Computational Fluid Dynamics Researcher",
-  about: `Currently pursuing a B.S. in Electrical and Computer Engineering and Computer Science at Duke University, I have a strong passion for computational research, entrepreneurship, and robotics. With my academic pursuits complemented by hands-on research and leadership experiences, I aim to drive innovation at the intersection of technology and real-world challenges.`,
+  jobDescription:
+    "AI/ML Researcher • Semiconductor Devices (Neuromorphic, 2D materials) • VC Associate",
+  about: `AI/ML researcher with venture capital experience, expanding into semiconductor devices and neuromorphic hardware. Inspired by John Bardeen’s view that “the most important work is done on the borderlines,” I aim to bridge AI, devices, and scalable systems—from HPC/ML ops to memristive synapses and 2D-material devices.`,
 
   experience: [
     {
-      name: "Duke Capital Partners",
+      name: "Semiconductor Devices Research – Roy Lab @ Duke | AI Hardware",
       location: "Durham, NC",
-      position: "Computer Science Associate",
+      position: "Researcher",
+      startDate: "May 2025",
+      endDate: "Current",
+      description: [
+        "Working on 2D materials, neuromorphic computing (memristors), artificial synapses, and AOS.",
+        "Fabricating ITO-based GAAFETs at SMIF for VLSI ’26; two IEDM publications in pipeline."
+      ],
+    },
+    {
+      name: "Duke Capital Partners (Seed-Stage VC)",
+      location: "Durham, NC",
+      position: "Associate",
       startDate: "Oct 2023",
       endDate: "Current",
       description: [
-        "Conducted comprehensive due diligence for AI startup investments at a leading venture capital firm, influencing multi-million dollar decisions and contributing to strategic portfolio management." ,
-        "Youngest Associate to be hired",
-         ],
-    },
-    
-    {
-      name: "DeAP Learning Labs",
-      position: "Founder and CTO",
-      location: "Durham, NC",
-      startDate: "April 2023",
-      endDate: "Current",
-      description: [
-        "Founded and technically directed an AI-driven educational startup aimed at transforming traditional education through interactive AI.",
-        "Developed custom, scalable RAG-based generative AI API on AWS, enabling chatbots to be trained on history, gov, and econ textbooks.",
-        "Introduced 'talking textbooks': AI-driven chatbots that engage with students using the course material, turning textbooks into responsive tutors.",
-        "Integrated AI tools to grade AP test questions, assist students in answering worksheet questions, and enable chatbots to learn from teacher-provided content.",
-        "Collaborated with notable education Youtubers like Heimler's History, integrating AI versions of their personalities into their online courses.",
-        "Committed to turning education into an immersive, enjoyable experience where subjects come to life, fostering deeper engagement and understanding among students.",
-        "Watch our vision and approach in this [video](https://www.youtube.com/watch?v=qk0ucMmoJa4)."
+        "Youngest Associate hired; contributed to four closings totaling $30.8M.",
+        "Built AI-powered data sourcing pipeline to accelerate diligence."
       ],
     },
-    
+    {
+      name: "SLAC National Accelerator Laboratory (FACET-II)",
+      location: "Stanford, CA",
+      position: "Machine Learning Researcher / DevOps Engineer",
+      startDate: "Jun 2023",
+      endDate: "Jan 2025",
+      description: [
+        "Published at IPAC 2024: ML digital twin ~2600× faster than traditional simulation.",
+        "Containerized complex physics software with Docker/Apptainer for on-prem HPC; cut setup time from days to minutes and reduced setup errors by ~98%."
+      ],
+    },
+    {
+      name: "DeAP Learning Labs (deaplearning.com)",
+      location: "Durham, NC",
+      position: "Founder & former CTO",
+      startDate: "2023",
+      endDate: "May 2024",
+      description: [
+        "Scaled free AP history prep to 258,000+ students; answered ~3M questions.",
+        "Built RAG-based LLM API on AWS (Docker, FastAPI, Weaviate); ~98.82% uptime."
+      ],
+    },
     {
       name: "Duke Aeroelasticity Lab",
-      position: "Researcher",
       location: "Durham, NC",
-      startDate: "May 2022",
-      endDate: "Current",
+      position: "Computational Fluid Dynamics Researcher",
+      startDate: "2022",
+      endDate: "May 2024",
       description: [
-        "Conducted grad-level CFD research on transonic airflow over a wing.",
-        "Investigated use of Euler equations as an alternative to Navier-Stokes equations."
+        "Transonic buffet studies; achieved ~30% compute reduction using Euler vs. Navier–Stokes."
       ],
     },
     {
-      name: "Chapel Headshots",
-      location: "Durham, NC",
-      position: "Founder and CEO",
-      startDate: "Aug 2022",
-      endDate: "Current",
+      name: "Self-Driving Golf Cart Initiative (High School)",
+      location: "Columbia, SC",
+      position: "Design/Mechanical Lead; Program Founder",
+      startDate: "2022",
+      endDate: "2022",
       description: [
-        "Founded Duke’s premier professional headshot business.",
-        "Directed marketing strategies and customer service relations."
+        "Engineered modular autonomy retrofit; secured ~$35k in grants (Google, SC DoE)."
       ],
     },
     {
-      name: "Stanford Linear Accelerator Center National Lab",
-      position: "Machine Learning Researcher",
-      location: "Stanford, CA",
-      startDate: "Jun 2023",
-      endDate: "Current",
+      name: "University of South Carolina Research Computing Lab (High School)",
+      location: "Columbia, SC",
+      position: "Deep Learning Researcher",
+      startDate: "2021",
+      endDate: "2021",
       description: [
-        "Re-engineered FACET-II's computer simulation infrastructure, implementing algorithmic control to improve efficiency.",
-        "Developed a fast machine learning model for the FACET-II photo injector, achieving a speed up of 26,000X vs traditional simulations.",
-        "Recognized for exceptional performance and innovation, earning a return offer to continue spearheading machine learning research.",
-        "Leveraged a technology stack consisting of XOPT, MATLAB, and OpenPMD. Employed Bayesian optimization and Controlled Non-dominated Sorting Genetic Algorithm for advanced simulation optimizations."
+        "Benchmarked ResNet-50 across PyTorch, TensorFlow, MXNet; SCJAS paper & oral presentation awards."
       ],
     },
-    // ... Add other experiences here
   ],
+
   leadership: [
     {
-      name: "Duke IEEE Chapter",
-      location: "President and Founder",
-      startDate: "Jan 2024",
+      name: "Duke IEEE / HKN Chapter",
+      location: "Durham, NC",
+      startDate: "Dec 2023",
       endDate: "Current",
       description: [
-        "I reactived Duke's IEEE chapter and am currently leading the chapter as President. After attending SuperComputing23, I realized undergraduate exposure to conferences is underrated. I refounded Duke's IEEE chapter to provide students with opportunities to attend conferences, network with industry professionals, and learn about the latest developments in the field, in an effort to inspire and drive passion in Duke undergrads."
+        "President & Founder; raised $31k; 360+ members.",
+        "Hosted/lectured NSF-funded supercomputing + AI practices workshop for emerging researchers."
       ],
     },
     {
       name: "Duke Robotics Mentorship",
-      location: "Club President",
+      location: "Durham, NC",
       startDate: "Jan 2023",
-      endDate: "Current",
+      endDate: "May 2024",
       description: [
-        "Headed and grew an organization dedicated to delivering free, hands-on robotics and programming courses to four local middle schools, demonstrating exceptional management skills and commitment to educational outreach."
-      ],
-    },
-    {
-      name: "SPARK! (SCGSSM)",
-      location: "Voluntary Student Leader",
-      startDate: "Sep 2020",
-      endDate: "May 2022",
-      description: [
-        "Planned, managed, and taught interactive, engaging lessons in STEM subjects to over 80 middle schoolers from across SC.",
-        "Taught and led lessons in robotics, Chinese, Latin, Math, US history, and spearheaded an 8-week python course."
-      ],
-    },
-    {
-      name: "Duke XPRIXE Robotics Team",
-      location: "Rainforest Drone Team Lead",
-      startDate: "Aug 2022",
-      endDate: "Present",
-      description: [
-        "Designed motor harness for drone and gel-based vibration-dampening system while auditing XPRIZE class (ECE 365)."
-      ],
-    },
-    {
-      name: "SCGSSM Mindfulness Program",
-      location: "Founder and President",
-      startDate: "Jan 2021",
-      endDate: "May 2022",
-      description: [
-        "Established afterschool mindfulness course in collaboration with school administration and certified yoga instructor."
+        "President; delivered free hands-on courses to four middle schools, impacting 80+ students."
       ],
     },
     {
       name: "FIRST Robotics",
-      location: "Team Captain (FTC 327), Lead Driver, Fabrication Specialist (FRC 2815), Current Mentor",
+      location: "SC/NC",
       startDate: "Jan 2020",
-      endDate: "Present",
+      endDate: "2023",
       description: [
-        "Founded a fabrication sub team and re-structured FRC 2815’s mechanical workflow.",
-        "Introduced OnShape and maintained a complete CAD model of our competition robot.",
-        "Enabled precise part fabrication and led the team to reach the Palmetto regional quarterfinals, placing 14th of 63 teams.",
-        "Headed drive team to win SCRAP 2021 regionals."
+        "FTC Team Captain (327); FRC (2815) Lead Driver & Fabrication Specialist; later mentor."
       ],
     },
   ],
 
   education: [
     {
-      name: "Duke University",
+      name: "Duke University — Erdman Engineering Scholarship",
       location: "Durham, NC",
       startDate: "2022",
-      endDate: "May 2025",
+      endDate: "May 2026",
       description: [
-        "B.S. in Electrical and Computer Engineering and Computer Science.",
-        "Innovation & Entrepreneurship certificate.",
-        "GPA: 3.78/4.00.",
-        "Relevant Coursework: Machine Learning, Linear Algebra, Modern Physics, Multi, ODE, Data Structures, Data Engineering."
+        "B.S. ECE & CS (’25); M.Eng./M.S. ECE: Semiconductor Technology (’26).",
+        "Coursework: Microelectronic Devices, Computer Architecture, Digital Systems, OS, Networks, Cloud DevOps.",
+        "Honors: IEEE HKN President, ACCESS CCEP Grant, Pratt Research Grant."
       ],
     },
     {
-      name: "South Carolina Governor's School for Science and Math",
+      name: "South Carolina Governor's School for Science & Math",
       location: "Hartsville, SC",
       startDate: "2020",
       endDate: "May 2022",
       description: [
-        "Honors: SCGSSM Robotics Award, FRC Design Award S.E. region, National Merit Finalist, National AP Scholar.",
-        "High School Experience: Led various STEM initiatives, participated in robotics competitions. Founder of the Mindfulness Program and Voluntary Student Leader for SPARK, engaging in interactive STEM lessons."
+        "Honors: SCGSSM Robotics Award, National Merit Finalist, National AP Scholar."
       ],
     },
   ],
@@ -160,7 +139,7 @@ export const info = {
   socialMedia: {
     github: "https://github.com/sanjeev-one",
     email: "mailto:sanjeev.chauhan@duke.edu",
-    linkedin: "https://www.linkedin.com/in/sanjeev-chauhan-a5b570240/",
+    linkedin: "https://www.linkedin.com/in/sanjeev-one/",
     resume: "/assets/docs/resume.pdf"
   },
 
@@ -168,29 +147,46 @@ export const info = {
     {
       title: "DeAP Learning Labs",
       isFeatured: true,
-      thumbnail: "/assets/images/dl.png", // Placeholder thumbnail, replace with actual path if available
-      githubUrl: "https://github.com/Deap-Learning-Labs", // Add GitHub URL if available
+      thumbnail: "/assets/images/dl.png",
+      githubUrl: "https://github.com/Deap-Learning-Labs",
       liveUrl: "https://deaplearning.com",
-      description: "Founded and technically directed an AI-driven educational startup, DeAP Learning Labs, which empowers over 95,000 students with personalized AP history exam preparation. Developed a custom, scalable RAG-based generative AI API on AWS, transforming traditional education through scalable, interactive AI. The platform integrates AI tools for grading, assisting with worksheet questions, and learning from teacher-provided content."
+      description:
+        "Free AP history prep for 258k+ students; ~3M Q&A. RAG LLM API on AWS (FastAPI, Weaviate, Docker)."
     },
     {
-      title: "Sanjeev.one - Blog",
+      title: "Audio2Blog",
       isFeatured: true,
-      thumbnail: "/assets/images/project.png", // Placeholder thumbnail, replace with actual path if available
-      githubUrl: "https://github.com/sanjeev-one/blog", // Add GitHub URL if available
+      thumbnail: "/assets/images/audio2blog.png",
+      githubUrl: "",
+      liveUrl: "",
+      description:
+        "Serverless Rust-on-AWS micro-architecture that turns recorded conversations into AI-authored blog posts."
+    },
+    {
+      title: "Incognito (Stanford TreeHacks)",
+      isFeatured: false,
+      thumbnail: "/assets/images/incognito.png",
+      githubUrl: "",
+      liveUrl: "",
+      description:
+        "Face-to-PII pipeline prototype highlighting privacy risks and the need for robust safeguards."
+    },
+    {
+      title: "Sanjeev.one — Blog",
+      isFeatured: false,
+      thumbnail: "/assets/images/project.png",
+      githubUrl: "https://github.com/sanjeev-one/blog",
       liveUrl: "https://blog.sanjeev.one",
-      description: "Sanjeev's blog to spread knowledge and wisdom to the world."
+      description: "Writing on AI/ML, semiconductors, HPC DevOps, and research workflows."
     },
-
     {
-      title: "Vehicle-Agnostic Control Systems for Autonomous Vehicle Fleets",
-      isFeatured: true,
+      title: "Vehicle-Agnostic Control Systems for AV Fleets",
+      isFeatured: false,
       thumbnail: "/assets/images/cart.jpeg",
       githubUrl: "https://github.com/AutoGolfCart",
       liveUrl: "https://github.com/AutoGolfCart",
-    },
-   
-    // ... Add other projects here
+      description:
+        "Modular autonomy stack aimed at retrofitting legacy carts for on-demand campus transport."
+    }
   ],
-  
 };
